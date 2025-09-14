@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        h1 {
+            margin: 0;
+        }
+        header, footer {
+            background-color: #8267BE;
+            color: #FFBD35;
+            padding: 15px;
+        }
+
+        .col {
+            float: left;
+            padding: 15px 15px 15px 0;
+        }
+
+        .menu {
+            width: 25%;
+        }
+
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu li {
+            padding: 8px;
+            margin-bottom: 8px;
+            background-color: #5B0888;
+            color: #fff;
+        }
+
+        .menu li:hover {
+            cursor: pointer;
+            background-color: #8267BE;
+        }
+        .content {
+            width: 75%;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Header</h2>
+    </header>
+
+    <main class="clearfix">
+        <div class="menu col">
+            <ul>
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript</li>
+
+            </ul>
+        </div>
+        <div class="content col">
+            <h1>Komple Web Geliştirme Eğitimi</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, autem ipsam dignissimos odit ut minus rerum ipsa quidem repellat nesciunt amet facere, odio nostrum eligendi neque maiores cupiditate quae reiciendis!  
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis aperiam, molestiae illo, vero commodi laudantium sequi omnis doloremque velit neque amet nobis totam. Vero incidunt consequuntur repudiandae numquam hic illum!
+            </p>
+            
+        </div>
+    </main>
+
+
+
+
+
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+
+</body>
+</html>
